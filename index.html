@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		body{
+  padding: 50px;
+  display: flex;
+  background-image: url("wood.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  font-family: "微軟正黑體",sans-serif;
+		}
+.resume{
+  display: flex;
+  max-width: 950px;
+  padding: 50px;
+  border: solid 8px #AAAAAA;
+  position: relative;
+  background-color:white;
+}
+.left{
+  flex: 5;
+  background-color:#FFFFFF
+}
+.right{
+  width: 400px;
+  background-color:#DDDDDD;
+ }
+
+.language .bar{
+  width: 150px;
+  height: 10px;
+  border: solid 2px #0044BB;
+  border-radius: 5px
+}
+.value{
+  height: 100%;
+  width: 60%;
+  background-color: #0044BB;
+}
+.value.p95{
+  width: 95%;
+}
+.value.p40{
+  width: 40%;
+}
+.value.p80{
+  width: 80%;
+}
+
+.skill{
+  display: flex;
+   margin-right:0px;
+   margin-left:40px;
+  flex-wrap: wrap; 
+}
+.skill li{
+  width: 35%;
+  margin-right:50px;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.circle{
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  background-color: #33CCFF;
+}
+.circle::after{
+  content: "";
+  display: block;
+  background-color: white;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%)
+}
+.p90,.p180,.p270,.p360{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background-color: #0044BB;
+}
+.p180{
+  top: 50%;
+}
+.p270{
+  left: 0;
+  top: 50%;
+}
+.p360{
+  left: 0;
+  top: 0;
+}
+.profile {
+    border-radius: 50%;
+    border: solid 5px #DDDDDD;
+}
+.cy {
+    border-radius: 50%;
+    border:5px solid #AAAAAA;
+}
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+.tw {
+    border-radius: 50%;
+    float:right;
+    margin-right:115px;
+}
+.usa {
+    border-radius: 50%;
+    float:right;
+    margin-right:115px;
+
+}
+.france {
+    border-radius: 50%;
+    float:right;
+    margin-right:115px;
+}
+</style>
+	</head>
+
+	<body>
+		<meta charset="UTF-8">
+		<title>max_resume</title>
+	<div class="resume">
+  		<div class="left">
+		<h1 style="font-size:38px"><b>吳政陽</b> <b><span style="color:#0044BB">ChengYang Wu</b></span></h1><hr><h1><b>自傳</b><b><span style="color:#0044BB">介紹</b></span></br></h1>
+		<center><img src="image.jpg" width="400" height="300" alt="myphoto" usemap="#selfie" class='profile'/></center>
+		<map name="selfie">
+  		<area shape="rect" coords="0,0,159,126" alt="facebook" href="https://www.facebook.com/profile.php?id=100002512703854">
+		</map>
+		<p>生於1999年1月3號，目前就讀交通大學傳播與科技學系大二，自幼對英語極感興趣，並在高中時經過英法實驗班的三年洗禮後，我成為一位更有視野及包容力的人，工作能力及抗壓性也提升許多。很快地進入到大學生活階段，首次住校離家讓我更加獨立，面對自由的大學生活，我始終秉持著不拖延的心態準備作業及考試，讓我的大學生活從容而且扎實，參加友會之後也強化了溝通能力與處理人際關係的技能。除了課業之外，不同的社團與活動團體等讓我的生活更加豐富，在活動中也累積了不少可貴的經驗。</p>
+		<h1><b>專業</b><b><span style="color:#0044BB">技能</b></span></h1>
+		<p>主要與大學所上的Adobe軟體有關，也有學過影像美學、拍片技巧、新聞產製等課程。自己有初步摸索的3D軟體、Python及網頁程式撰寫。活動期間會帶相機去拍照，練習攝影技巧。在學校一些社團或活動擔任過行銷部人員，發現對行銷有興趣，便考了GA證照。在交大網路電台擔任工程部成員了解音控軟體及機器的使用。</p>
+		<ul class="skill">
+        <li>
+          <div class="circle">
+            <div class="p90"></div>
+            <div class="p180"></div>
+            <div class="p270"></div>
+          </div>
+         Adobe Ai
+        </li>
+        <li>
+          
+          <div class="circle">
+            <div class="p90"></div>
+            <div class="p180"></div>
+            <div class="p270"></div>
+          </div>
+          Adobe Ps
+        </li>
+        <li>
+          
+          <div class="circle">
+            <div class="p90"></div>
+            <div class="p180"></div>
+          </div>
+     Adobe Pr
+        </li>
+        <li>
+          
+          <div class="circle">
+            <div class="p90"></div>
+          </div>
+          Maya/3ds max
+        </li>
+        <li>
+          
+          <div class="circle">
+            <div class="p90"></div>
+        </div>
+          介面/網頁設計
+        </li>
+        <li>
+          
+          <div class="circle">
+            <div class="p90"></div>
+          </div>
+          Python
+        </li>
+        <li>
+          
+          <div class="circle">
+            <div class="p90"></div>
+            <div class="p180"></div>
+          </div>
+          攝影
+        </li>
+        <li>
+          
+          <div class="circle">
+            <div class="p90"></div>
+            <div class="p180"></div>
+          </div>
+          行銷企劃/設計
+        </li>
+      </ul>
+   
+		</div>
+
+
+		<div class="right">
+		<p style="background-color:#0044BB"><b><span style="color:#0044BB">..<span style="color:#FFFFFF">聯絡電話:<br><span style="color:#0044BB">..<span style="color:#FFFFFF">0920773586<br><span style="color:#0044BB">..<span style="color:#FFFFFF">電子信箱:<br><span style="color:#0044BB">..<span style="color:#FFFFFF">max.wu6501@gmail.com<span></b></p>
+		<h1><b><span style="color:	#DDDDDD">..<span style="color:	black">求學經歷</b></h1>
+		<ul>
+			<li>臺北市松山區民族國民小學畢業</li>
+  			<li>臺北市立介壽國民中學畢業</li>
+  			<li>臺北市立永春高級中學英法實驗班畢業</li>
+  			<li>就讀國立交通大學傳播與科技學系大二</li></ul>
+		<h1><b><span style="color:	#DDDDDD">..<span style="color:	black">檢定認證</b></h1>
+		<ul>
+			<li>GEPT全民英檢中高級通過</li>
+  			<li>TOEIC多益英語測驗905分</li>
+  			<li>TOEFL ITP托福紙筆測驗590分</li>
+  			<li>DELF A1法文檢定通過</li>
+  			<li>「Google Analytics個人認證」通過</li></ul>
+		<h1><b><span style="color:	#DDDDDD">..<span style="color:	black">語言能力</b></h1>
+		 <ul class="language">
+        
+        <li>中文<img src="tw.png" width="50" height="50" class="tw"/>
+          <div class="bar">
+          <div class="value p95"></div></li>
+          <p></p>
+        <li>英文<img src="usa.png" width="50" height="50" class="usa"/>
+          <div class="bar">
+            <div class="value p80"></div>
+          </div>
+        </li>
+         <p></p>
+        <li>法文<img src="france.png" width="50" height="50" class="france"/>
+          <div class="bar">
+            <div class="value p40"></div>
+          </div>
+        </li>
+        </ul>
+		<h1><b><span style="color:	#DDDDDD">..<span style="color:	black">特殊經歷</b></h1><ul>
+			<li><a href="https://www.facebook.com/nctutalkbar/?eid=ARD0PHU-C-1Xrwsf06w8Gss4572iYUgK221_yHSBK01MiAj2NSXyHq3nLy5czoDkfOBUJtyG5UxZq46e">TalkBar說吧</a> 行銷組</li>
+			<li>2019<a href="https://www.facebook.com/JinGoCup/">金Go盃歌唱大賽</a> 行銷組</li>
+  			<li>2018<a href="https://www.facebook.com/NCTUBYsummercamp.alwaysbewithyou/">國立交通大學北區友會</a>迎新宿營 招生長</li>
+  			<li><a href="https://www.facebook.com/gotoandplay.nctu/?epa=SEARCH_BOX">交大網路電台goto&Play</a> 工程助理</li>
+  			<li>第一屆英法實驗班微電影展 主持人</li>
+  			<li>國際扶輪社偏鄉線上英語課輔計畫</li>
+  			<li>2015外交小尖兵優良團隊</li>
+  			<li>2015臺北市高中作文比賽甲組 第三名</li>
+  			<li>台灣法屬留尼旺交流訪問團</li>
+  			<li>YCMUN永春模擬聯合國社 教學長</li>
+  			<li>2015臺美青年領袖高峰會</li>
+  			<li>2014亞洲青年論壇受邀聽講</li></ul>
+		</div>
+	</body>
+
+
+</html>
